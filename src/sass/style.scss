@@ -1,0 +1,18 @@
+button{
+    padding: 10px 20px;
+    background-color: #1BA1E2;
+    color:#ffffff;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+    &:hover{
+        background-color: #1580b4;
+    }
+}
+
+@import "header";
+@import "layout";
+@import "home";
+@import "payments";
